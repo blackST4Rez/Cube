@@ -454,7 +454,7 @@ h5 {
 }
 
 .l-items::before {
-    content: "✓";
+    content: "🔹";
     position: absolute;
     left: 0;
     color: #c62153;
