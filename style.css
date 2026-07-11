@@ -64,6 +64,10 @@ img {
     font-size: 20px;
 }
 
+.menu-bar{
+    display: none;
+}
+
 .nav-btn1 {
     display: flex;
     align-items: center;
@@ -705,12 +709,15 @@ h5 {
 @media (max-width: 1024px) {
     h1 { font-size: 50px; }
     .eng-txt { font-size: 45px; }
-    .eng-container {
+    .eng-container{
         flex-wrap: wrap;
         justify-content: center;
     }
+    .menu-bar{
+        display: block;
+    }
     #footer {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -720,15 +727,17 @@ h5 {
         position: relative;
     }
     .header-container {
-        flex-direction: column;
+        flex-direction: row;
         gap: 15px;
         text-align: center;
     }
     #nav-header {
+        display: none;
         gap: 1.5rem;
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .version { margin-top: 40px; }
     h1 { font-size: 36px; }
     .eng-txt { font-size: 32px; }
@@ -750,6 +759,9 @@ h5 {
     #footer {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+    .foot-img{
+        margin: 0 auto;
     }
     #res {
         align-items: center;
