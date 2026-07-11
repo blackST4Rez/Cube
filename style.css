@@ -707,15 +707,28 @@ h5 {
 
 /* Medium Devices (Laptops/Tablets down to 1024px) */
 @media (max-width: 1024px) {
-    h1 { font-size: 50px; }
-    .eng-txt { font-size: 45px; }
+
+    #nav-header{
+        display:none;
+    }
+
+    h1 { 
+        font-size: 50px;
+    }
+
+    .eng-txt { 
+        font-size: 45px; 
+    }
+
     .eng-container{
         flex-wrap: wrap;
         justify-content: center;
     }
+
     .menu-bar{
         display: block;
     }
+
     #footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
