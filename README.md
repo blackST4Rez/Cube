@@ -6,21 +6,15 @@ A modern, responsive landing page built with **HTML5** & **CSS3**. This project 
 
 ## 📸 Preview
 
-```md
 ![Project Preview](./Assets/SS1.png)
-```
-```md
+
 ![Project Preview](./Assets/SS2.png)
-```
-```md
+
 ![Project Preview](./Assets/SS3.png)
-```
-```md
+
 ![Project Preview](./Assets/SS4.png)
-```
-```md
+
 ![Project Preview](./Assets/SS5.png)
-```
 
 ---
 
